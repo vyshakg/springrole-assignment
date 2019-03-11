@@ -25,6 +25,7 @@ export const PrimaryButton = styled.button`
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.25s;
+  background: #f5f7f8;
   display: flex;
   justify-content: center;
   align-items: center;
