@@ -1,0 +1,23 @@
+.navbar {
+  height: 60px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.16);
+  padding: 0 15px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 970px;
+  height: 100%;
+}
+.logo {
+  height: 22px;
+  width: 117px;
+  background-image: url(https://frontend.springrole.com/80dddb4b5583b1d3a3be9dd2a2ab82a4.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,65 @@
+.footer {
+  background-color: #0b1547;
+  border-top: 10px solid #437bcb;
+  padding-top: 60px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-container {
+  padding-top: 30px;
+  display: flex;
+  width: 68%;
+  justify-content: center;
+}
+.footer-display {
+  font-weight: 300;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  color: #fff;
+}
+.footer-heading {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-size: 12px;
+  padding: 8px 0;
+  color: #f7f7f7;
+  max-width: 220px;
+  display: block;
+}
+.footer-hr {
+  display: none;
+}
+
+.footer-logo {
+  height: 21px;
+  width: 118px;
+  background-image: url("https://frontend.springrole.com/5c5bff190798b29920e213079e2eeef3.png");
+  background-position: center;
+  background-size: contain;
+  margin: 0 0 20px 15px;
+  background-repeat: no-repeat;
+}
+
+.copyright-content {
+  font-weight: 100;
+  color: #fff;
+  font-size: 10px;
+  padding: 0 5px 0 10px;
+  text-decoration: none;
+  border-right: solid 2px #97979780;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}

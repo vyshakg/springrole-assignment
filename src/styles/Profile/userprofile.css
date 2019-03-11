@@ -1,0 +1,13 @@
+.message-btn-position {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 1;
+}
+
+.user-designation-style {
+  margin: 5px 0;
+  color: #2b2e43;
+  opacity: 0.4;
+  font-weight: 500;
+}

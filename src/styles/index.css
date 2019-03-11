@@ -1,0 +1,11 @@
+@import "./_reset.css";
+@import "./Navbar/Navbar.css";
+@import "./Navbar/mediaNavbar.css";
+@import "./Footer/footer.css";
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+@import "./Footer/mediaFooter.css";
+@import "./Profile/userprofile.css";
+body .app-container {
+  height: 100%;
+  overflow: auto;
+}
