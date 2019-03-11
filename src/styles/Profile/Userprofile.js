@@ -43,3 +43,21 @@ export const ProfileRightWrapper = styled.div`
   padding-bottom: 0px;
   position: relative;
 `;
+
+export const UserSkill = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+`;
+export const SkillWrapper = styled.div`
+  height: 31px;
+  background-color: #f1f1f1;
+  background: #f1f1f1;
+  line-height: 31px;
+  padding: 0 41px 0 10px;
+  border-radius: 21px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 12px;
+  margin-right: 10px;
+`;

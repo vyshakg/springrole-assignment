@@ -2,8 +2,10 @@ import React from "react";
 import {
   PrimaryButton,
   ProfileRightWrapper,
+  SkillWrapper,
   UserProfileConatiner,
-  UserProfileWrapper
+  UserProfileWrapper,
+  UserSkill
 } from "../../styles/Profile/Userprofile";
 
 function UserProfile() {
@@ -28,6 +30,15 @@ function UserProfile() {
 
             <h4 class="user-designation-style">CEO at SpringRole</h4>
             <h4 class="user-designation-style">India</h4>
+          </div>
+          <UserSkill>
+            <SkillWrapper>
+              <div>tem</div>
+              <div className="circle" />
+            </SkillWrapper>
+          </UserSkill>
+          <div class="user-profile-url">
+            <div class="url "> https://www.springrole.com/kartik</div>
           </div>
         </ProfileRightWrapper>
       </UserProfileWrapper>
