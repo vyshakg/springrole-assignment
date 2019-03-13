@@ -29,9 +29,13 @@ export const PrimaryButton = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
+  color: ${props => props.hover};
+  background: ${props => props.color};
   &:hover {
     background-color: #004fc1;
+    background-color: ${props => props.hover};
     color: #fff;
+    color: ${props => props.color};
   }
 `;
 
@@ -61,4 +65,14 @@ export const SkillWrapper = styled.div`
   position: relative;
   font-size: 12px;
   margin-right: 10px;
+`;
+
+export const UserExtra = styled.div`
+  display: flex;
+  padding: 22px;
+  background-color: #fff;
+  margin: 15px 0;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
 `;

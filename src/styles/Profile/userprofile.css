@@ -28,3 +28,150 @@
 
   align-items: center;
 }
+
+.user-btn-extra {
+  display: flex;
+}
+.experience-user {
+  display: flex;
+  color: #959595;
+  font-size: 10px;
+}
+.experience-bars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bars {
+  justify-content: space-between;
+  align-items: flex-end;
+  display: flex;
+  height: 32px;
+  width: 34px;
+  margin-bottom: 5px;
+  transition: all 1s;
+  transition-delay: 1s;
+  position: relative;
+}
+
+.experience-txt {
+  font-size: 18px;
+  color: #4a4a4a;
+  font-weight: 500;
+  top: -9px;
+  position: absolute;
+  left: -8px;
+}
+.grid-bar {
+  width: 10px;
+}
+.grid-bar-1 {
+  height: 33%;
+  background-color: #f7be6c;
+}
+.grid-bar-2 {
+  height: 66%;
+  background-color: #ff8100;
+}
+.grid-bar-3 {
+  height: 100%;
+  background-color: #d86d00;
+}
+
+.yrs-text {
+  font-size: 8px;
+  position: absolute;
+  top: -2px;
+}
+
+.verified-percentile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 1px solid #cbcbcb;
+}
+.verification-graphic {
+  border: 2px dashed #2bc060;
+  color: #2bc060;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.about-me {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #fff;
+  margin: 15px 0;
+  font-style: italic;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.company-name-header {
+  width: fit-content;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 4px 8px;
+  color: #4a4a4a;
+  position: relative;
+  left: -7px;
+}
+
+.company-name {
+  color: #4a4a4a;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.position-duration {
+  color: #959595;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.work-done-description {
+  width: calc(100% - 66px);
+  margin-left: 65px;
+  text-align: left;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+  padding-left: 0;
+  flex-direction: column;
+  color: #959595;
+  display: flex;
+  line-height: 16px;
+  justify-content: center;
+  padding-bottom: 13px;
+  padding-left: 120px;
+  font-size: 12px;
+}
+.work-done {
+  margin: 10px 0px;
+  max-width: 450px;
+}
+.worked-on-tag {
+  border-radius: 21.29px;
+  padding: 5px 8px;
+  background-color: #efefef;
+  position: relative;
+  font-size: 12px;
+  font-weight: 500;
+  display: inline-block;
+  color: #4a4a4a;
+  margin: 0 7px;
+  text-transform: capitalize;
+}
+.after-each-work {
+  background-color: #fff;
+  border-bottom: 1px solid #efefef;
+}

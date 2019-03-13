@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
 @import "./Footer/mediaFooter.css";
 @import "./Profile/userprofile.css";
+@import "./helper.css";
 body .app-container {
   height: 100%;
   overflow: auto;
