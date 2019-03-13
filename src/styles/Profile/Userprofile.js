@@ -15,6 +15,11 @@ export const UserProfileWrapper = styled.div`
   margin: 15px 0;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
   position: relative;
+  @media (max-width: 767px) {
+    flex-direction: column;
+    text-align: center;
+    text-align: -webkit-center;
+  }
 `;
 
 export const PrimaryButton = styled.button`
@@ -47,6 +52,10 @@ export const ProfileRightWrapper = styled.div`
   justify-content: space-between;
   padding-bottom: 0px;
   position: relative;
+  @media (max-width: 767px) {
+    width: 100%;
+    text-align: center;
+  }
 `;
 
 export const UserSkill = styled.div`
@@ -75,4 +84,7 @@ export const UserExtra = styled.div`
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  @media (max-width: 767px) {
+    flex-direction: column-reverse;
+  }
 `;

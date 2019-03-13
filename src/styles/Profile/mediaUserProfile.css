@@ -1,0 +1,19 @@
+@media (max-width: 767px) {
+  .work-done-description {
+    width: 100%;
+    padding-left: 0;
+    margin-left: 4px;
+    flex-direction: column;
+  }
+  .message-btn-position {
+    top: 244px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .meida-mt {
+    margin-top: 48px;
+  }
+}
+.user-btn-extra {
+  margin-top: 30px;
+}

@@ -5,8 +5,11 @@ export const UserInfoConatiner = styled.div`
   justify-content: flex-start;
   margin: auto;
   max-width: 970px;
-  @media (min-width: 1200px) {
+  @media (max-width: 1200px) {
     max-width: 1170px;
+  }
+  @media (max-width: 767px) {
+    flex-direction: column-reverse;
   }
 `;
 export const UserExp = styled.div`
@@ -16,6 +19,9 @@ export const UserExp = styled.div`
   align-items: flex-start;
   flex-direction: column;
   position: relative;
+  @media (max-width: 767px) {
+    width: 100%;
+  }
 `;
 export const UserSkills = styled.div`
   width: calc(33% - 20px);

@@ -6,6 +6,7 @@
 @import "./Footer/mediaFooter.css";
 @import "./Profile/userprofile.css";
 @import "./helper.css";
+@import "./Profile/mediaUserProfile.css";
 body .app-container {
   height: 100%;
   overflow: auto;

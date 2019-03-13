@@ -30,7 +30,7 @@ function UserProfile({ profile }) {
           <div className="user-id-ctr">
             <h1 style={{ fontSize: "24px", fontWeight: "500" }}>{profile.name}</h1>
 
-            <h4 className="user-designation-style">
+            <h4 className="user-designation-style meida-mt">
               {profile.current_job_designation} at {profile.current_company}
             </h4>
             <h4 className="user-designation-style">{profile.current_location}</h4>
