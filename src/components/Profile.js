@@ -8,8 +8,18 @@ function Profile() {
   const [workExp, setworkExp] = useState(null);
   const [profile, setProfile] = useState(null);
   const [education, setEducation] = useState(null);
-
+  // const config = {
+  //   headers: {
+  //     "Access-Control-Allow-Origin": "*",
+  //     "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE"
+  //   },
+  //   crossDomain: true,
+  //   proxy: {
+  //     host: "https://beta.springrole.com"
+  //   }
+  // };
   useEffect(() => {
+    // Axios.defaults.baseURL = "https://beta.springrole.com";
     Axios.get("api/v1/user/c4f4c607-e9c8-4acb-9893-93c541bddf35/work-experience")
       .then(res => {
         setworkExp(res.data.work_experiences);
